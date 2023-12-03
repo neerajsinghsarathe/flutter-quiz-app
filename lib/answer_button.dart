@@ -19,6 +19,6 @@ class AnswerButton extends StatelessWidget {
           //? Not keeping because material 3 is already providing circular button
           /* shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(40))*/
         ),
-        child: Text(answerText));
+        child: Text(answerText, textAlign: TextAlign.center,));
   }
 }
